@@ -4,15 +4,17 @@
 
 
 .ul{
-    padding: 0;
-    margin: 0;
+    padding: 40px;
+    margin: 40px;
     list-style-type: none;
     background-color: #333333;
+    height: 40px;
+    
 }
 
 .li{
     display: inline-block;
-    width: 140px;
+    width: 150px;
     height: 40px;
     margin: 0;
     padding: 0;
@@ -20,6 +22,7 @@
     text-align: center;
     font-size: 20px;
     line-height: 40px;
+
     
 }
 
@@ -39,19 +42,24 @@
     background-color: #333333;
 }
 
-.adroite{
-    text-align: right;
+.coloriback{
+    background-color: dimgrey;
 }
 
-.gauche{
-    text-align: left;
+.adroite{
+    float: right;
 }
+
+.agauche{
+    float: left;
+}
+
 
 .plusdecouleur{
     text-decoration: none;
     color: #ffffff;
 }
 
-.bordure{
-
+.plusgrand{
+    font-size: 60px;
 }
