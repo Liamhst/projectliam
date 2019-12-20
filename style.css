@@ -81,6 +81,7 @@
 #menu-deroulant a {
     text-decoration: none;
     display: block;
+    color: #ffffff;
 }
 #menu-deroulant ul {
     position: absolute;
